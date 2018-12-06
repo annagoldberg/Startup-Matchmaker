@@ -1,0 +1,88 @@
+html body,
+html body * {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+  border: 3px double black;
+}
+
+.row {
+  width: 100%;
+  padding: 10px;
+  border: 3px dashed orangered;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.row:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.col {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  border: 3px dotted black;
+}
+
+.grid-item {
+  min-height: 50px;
+  background-color: blanchedalmond;
+  box-shadow: 0px 5px 30px -10px black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.col-1 {
+  width: 8.33%
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
