@@ -1,14 +1,40 @@
 html body,
 html body * {
   box-sizing: border-box;
+  font-family: "Open Sans";
 }
 
-.header {
+h1 {
 	background-color: black;
 	color: yellow;
 	padding: 50px;
-	
+	float: left;
+	font-size: 40px;
+	display: inline;
+	width: 100%;
+	margin: 0px;
+}
 
+
+h2 {
+	font-weight: 600;
+	color: white;
+	float: right;
+	display: inline;
+	background-color: black;
+	width: 100%;
+	margin: 0px;
+	padding: 40px;
+}
+
+
+
+.grey {
+	background-color: grey;
+	padding: 40px;
+	text-align: center;
+	font-size: 30px;
+	padding: 50px;
 
 }
 
